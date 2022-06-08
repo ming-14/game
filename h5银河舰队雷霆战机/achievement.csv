@@ -1,0 +1,66 @@
+,name,info,valueName,target,point,deployment,tag
+-1,Achievement name,Achievement information description,对比值名,目标值,奖励点,是否实装,Prompt labels
+0,The beginning of the battle,Get into the game for the first time,game_count,1,1,*,Number of games
+1,Time shuttle,Get the 3rd game,game_count,3,2,*,Number of games
+2,never give up,Get the 10th game,game_count,10,5,*,Number of games
+3,Endless cycle,Earn when playing the 100th game,game_count,100,10,*,Number of games
+4,Explorer,Open up to 10 planets,planet_finish,10,1,*,Arrived on the planet
+5,Professional adventurer,Get through 50 planets,planet_finish,50,3,*,Arrived on the planet
+6,Planetary Researcher,Open up 300 planets,planet_finish,300,5,*,Arrived on the planet
+7,The cycle point of time,First-pass game (simple mode),game_mode_normal,1,10,*,Simple clearance
+8,Breaking cycle,First-pass game (difficult mode),game_mode_hard,1,20,*,Ordinary clearance
+9,Mobius ring,First Clearance Game (Hell Mode),game_mode_extra,1,50,*,Difficult clearance
+10,Destroyer I,Destroy 50 enemy planes,enemy_kills,50,1,*,Destroy enemy aircraft
+11,Destroyer II,Destroy 100 enemy planes,enemy_kills,100,2,*,Destroy enemy aircraft
+12,Destroyer III,Destroy 1000 enemy planes,enemy_kills,1000,5,*,Destroy enemy aircraft
+13,Destroyer IV,"Destroy 5,000 enemy planes",enemy_kills,5000,10,*,Destroy enemy aircraft
+14,Destroyer V,"Destroy 10,000 enemy aircraft",enemy_kills,10000,25,*,Destroy enemy aircraft
+15,Newbies,Drawing collection rate exceeds 15%,collect_per,15,3,*,Drawing collection rate
+16,Collectors,Drawing collection rate exceeds 35%,collect_per,35,15,*,Drawing collection rate
+17,Collection expert,Drawing collection rate exceeds 65%,collect_per,65,30,*,Drawing collection rate
+18,Collection Master,Drawing collection rate exceeds 85%,collect_per,85,50,*,Drawing collection rate
+19,God of Collection,Drawing collection rate reaches 100%,collect_per,100,88,*,Drawing collection rate
+20,Perfect evaluation I,Clearance of S grade or more,rank_s,1,6,*,S evaluation
+21,Perfect evaluation II,Customs clearance 3 times or more,rank_s,3,20,*,S evaluation
+22,Perfect evaluation III,Customs clearance 10 times or more,rank_s,10,50,*,S evaluation
+23,Perfect evaluation IV,Customs clearance 30 times above S level,rank_s,30,80,*,S evaluation
+24,Good review I,Clearance level 3 or more,rank_a,3,3,*,A evaluation
+25,Good review II,Passed more than A level 15 times,rank_a,15,10,*,A evaluation
+26,Good evaluation III,Clearance level A and above 50 times,rank_a,50,25,*,A evaluation
+27,Good review IV,Passing more than A level 100 times,rank_a,100,50,*,A evaluation
+28,Pirate I,Accumulated battle collecting 10000G,collect_coin,10000,2,*,Collect gold coins
+29,Pirate II,Accumulated battle collection 50000G,collect_coin,50000,12,*,Collect gold coins
+30,Pirate III,Accumulated battle collecting 150000G,collect_coin,150000,30,*,Collect gold coins
+31,Pirate IV,Accumulated battle collection 500000G,collect_coin,500000,50,*,Collect gold coins
+32,Energy Development I,Accumulation of 1000 battle energy,collect_energy,1000,2,*,Collect energy
+33,Energy Development II,"Fighting cumulative income of 5,000 energy",collect_energy,5000,12,*,Collect energy
+34,Energy Development III,Accumulation of 10000 energy in battle,collect_energy,10000,30,*,Collect energy
+35,Energy Development IV,Accumulation of 500000 energy in battle,collect_energy,50000,50,*,Collect energy
+36,Science and Technology Experiment I,Accumulated skills use 10 times,use_skill_count,10,2,*,Use skills
+37,Science and Technology Experiment II,Accumulated use of skills 100 times,use_skill_count,100,10,*,Use skills
+38,Science and Technology Experiment III,Accumulated combat skills 500 times,use_skill_count,500,20,*,Use skills
+39,Technology Experiment IV,The cumulative use of skills 1000 times,use_skill_count,1000,45,*,Use skills
+40,Equipment Collector I,Accumulated combat equipment 20 times,get_equip_count,20,3,*,Get equipment
+41,Equipment Collector II,Accumulated battle acquisition equipment 200 times,get_equip_count,200,15,*,Get equipment
+42,Equipment Collector III,Accumulated combat equipment 100 times,get_equip_count,100,45,*,Get equipment
+43,Equipment Collector IV,Accumulated battle acquisition equipment 2000 times,get_equip_count,2000,60,*,Get equipment
+44,Businessman I,Accumulated purchase 10 times,buy_count,10,2,*,Purchase goods
+45,Businessman II,Accumulative purchase 200 times,buy_count,200,14,*,Purchase goods
+46,Businessman III,Accumulated purchase 1000 times,buy_count,1000,30,*,Purchase goods
+47,Businessman IV,Accumulated purchase 3000 times,buy_count,3000,60,*,Purchase goods
+48,First galaxy coin,Accumulated battle gains 1 galaxy coin,collect_gem,1,3,*,Collecting galaxy coins
+49,Galaxy coin II,Battle totaled 9 coins,collect_gem,9,10,*,Collecting galaxy coins
+50,Galaxy Coin III,Accumulated 99 Battle Dollars for Battle,collect_gem,99,50,*,Collecting galaxy coins
+51,Galaxy Coin IV,Accumulated battle gains 999 coins,collect_gem,999,90,*,Collecting galaxy coins
+52,Traveller I,Travel distance more than 9999,travel_distance,9999,2,*,Sailing distance
+53,Traveller II,Travel distance more than 99999,travel_distance,99999,8,*,Sailing distance
+54,Traveller III,Travel distance more than 999999,travel_distance,999999,16,*,Sailing distance
+55,Breaker I,Clearance highest score 10000,high_score,10000,4,*,Highest score
+56,Breaker II,Clearance up to 100000,high_score,100000,8,*,Highest score
+57,Breaker III,"Clearance highest score 900,000",high_score,900000,20,*,Highest score
+58,Customs I,5 times of any difficulty game clearance,game_clear,5,5,*,Perfect clearance
+59,Clearance II,25 times of any difficulty game clearance,game_clear,25,15,*,Perfect clearance
+60,Clearance III,100 times of any difficulty game clearance,game_clear,100,50,*,Perfect clearance
+61,Endless challenge I,Passing through the farthest level 9,high_level,9,4,*,The highest level
+62,Endless Challenge II,Passing through the farthest level 19,high_level,19,10,*,The highest level
+63,Endless Challenge III,Passing through the farthest level 29,high_level,29,50,*,The highest level

@@ -1,0 +1,13 @@
+,name,title,costItem,getItem,rateValue
+-1,Event name,Introduction,消耗道具,获得道具类型,稀有度
+0,New equipment,A spaceship has made a trade request to you\hope to sell their equipment. Do you agree?,gold,equip,20
+1,New skills,A spaceship has made a trade request to you\hope to sell their skills. Do you agree? ,gold,skill,25
+2,Spaceships for sale,You have come to the spacecraft's construction base. Here you can buy their secretly researched spacecraft. Do you agree?,gold,plane,20
+3,unknown origins,The unidentified spacecraft sent you a message. He wants you to lend them some money to repair the spacecraft. If you agree they will provide some compensation.,gold,random,10
+4,New skills,Energy Trading \ A spacecraft made a trade request \ wish to sell their energy.,gold,energy,50
+5,Exchange equipment,Discovered on the planet's exchange can use energy for some equipment.,energy,equip,10
+6,Insufficient energy,Discovered the exchange on the planet\can exchange energy for a skill,energy,skill,5
+7,Spare energy,You have encountered a spacecraft. They plan to reserve some energy. Do you intend to pay for energy in exchange for some gold coins?,energy,gold,10
+8,unknown origins,The unidentified spaceship sent you a message that their energy is insufficient and want to borrow some energy from you. If you agree \ they may give you some compensation.,energy,random,10
+9,Discover minerals,"You discovered metal minerals on a planet \ After mining, you will get some gold coins.",none,gold,5
+10,Discover energy,You have discovered that there is energy ore on a planet that can be used to obtain energy.,none,energy,30

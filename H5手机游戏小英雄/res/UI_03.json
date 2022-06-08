@@ -1,0 +1,1549 @@
+{"fonts": {
+    "GoldFont": {
+        "anchorY": 1.4,
+        "end": 106,
+        "anchorX": -0.1,
+        "size": 32,
+        "start": 97,
+        "chars": "0123456789"
+    },
+    "ScoreFont": {
+        "anchorY": 1.13,
+        "end": 119,
+        "anchorX": -0.21,
+        "size": 18,
+        "start": 107,
+        "chars": "0123456789Max"
+    },
+    "CoinFont": {
+        "anchorY": 1.21,
+        "end": 96,
+        "anchorX": -0.2,
+        "size": 18,
+        "start": 87,
+        "chars": "0123456789"
+    }
+}, "mcs": {
+    "GameResult": {
+        "totalFrames": 1,
+        "anchorY": 1.01,
+        "children": {
+            "replayBtn": {
+                "zIndex": 12,
+                "frames": "522.05,43.80,0.00,1.00,1.00,1.00",
+                "class": "replayBtn"
+            },
+            "coinsTxt": {
+                "text": "9999",
+                "class": "GoldFont",
+                "width": 121,
+                "align": "left",
+                "height": 66,
+                "zIndex": 1,
+                "frames": "188.35,315.15,0.00,1.00,1.00,1.00"
+            },
+            "killedTxt": {
+                "text": "9999",
+                "class": "GoldFont",
+                "width": 123,
+                "align": "left",
+                "height": 66,
+                "zIndex": 5,
+                "frames": "454.85,397.90,0.00,1.00,1.00,1.00"
+            },
+            "savedTxt": {
+                "text": "9999",
+                "class": "GoldFont",
+                "width": 122,
+                "align": "left",
+                "height": 66,
+                "zIndex": 7,
+                "frames": "455.30,319.85,0.00,1.00,1.00,1.00"
+            },
+            "instance1677": {
+                "zIndex": 2,
+                "frames": "-0.65,357.15,0.00,1.00,1.00,1.00",
+                "class": "LoseScore"
+            },
+            "instance1688": {
+                "zIndex": 6,
+                "frames": "384.20,316.90,0.00,0.35,0.35,1.00",
+                "class": "LoseSaved"
+            },
+            "moreBtn": {
+                "zIndex": 11,
+                "frames": "306.40,42.85,0.00,1.00,1.00,1.00",
+                "class": "moreBtn1"
+            },
+            "instance1707": {
+                "zIndex": 14,
+                "frames": "133.40,453.10,0.00,1.00,1.00,1.00",
+                "class": "gotText"
+            },
+            "instance1694": {
+                "zIndex": 9,
+                "frames": "94.90,203.15,0.00,1.00,1.00,1.00",
+                "class": "distans"
+            },
+            "scoreTxt": {
+                "text": "9999",
+                "class": "GoldFont",
+                "width": 121,
+                "align": "left",
+                "height": 66,
+                "zIndex": 0,
+                "frames": "187.65,393.80,0.00,1.00,1.00,1.00"
+            },
+            "distanceTxt": {
+                "text": "9999",
+                "class": "GoldFont",
+                "width": 196,
+                "align": "left",
+                "height": 66,
+                "zIndex": 8,
+                "frames": "292.70,218.75,0.00,1.00,1.00,1.00"
+            },
+            "menuBtn": {
+                "zIndex": 10,
+                "frames": "89.05,43.85,0.00,1.00,1.00,1.00",
+                "class": "menuBtn"
+            },
+            "instance1682": {
+                "zIndex": 4,
+                "frames": "383.30,394.25,0.00,0.35,0.35,1.00",
+                "class": "LoseKilled"
+            },
+            "instance1680": {
+                "zIndex": 3,
+                "frames": "4.40,278.45,0.00,1.00,1.00,1.00",
+                "class": "LoseCoins"
+            },
+            "instance1705": {
+                "zIndex": 13,
+                "frames": "0.00,425.15,0.00,1.00,1.00,1.00",
+                "class": "LoseIcon"
+            }
+        },
+        "anchorX": -0.04,
+        "rect": "0,0,600.5,638.15",
+        "type": "GameResult"
+    },
+    "MainMenu": {
+        "totalFrames": 1,
+        "anchorY": 0,
+        "children": {
+            "startBtn": {
+                "zIndex": 1,
+                "frames": "461.45,55.35,0.00,1.00,1.00,1.00",
+                "class": "startBtn"
+            },
+            "instance1733": {
+                "zIndex": 0,
+                "frames": "3.55,23.60,0.00,1.00,1.00,1.00",
+                "class": "menuBG"
+            },
+            "moreBtn": {
+                "zIndex": 2,
+                "frames": "60.30,70.80,0.00,1.00,1.00,1.00",
+                "class": "moreBtn"
+            }
+        },
+        "anchorX": -0.01,
+        "rect": "0,0,641,886",
+        "type": "MainMenu"
+    },
+    "ShopPP": {
+        "totalFrames": 1,
+        "anchorY": 0.08,
+        "children": {
+            "rankBar2": {
+                "zIndex": 3,
+                "frames": "508.70,414.25,0.00,0.59,0.59,1.00",
+                "class": "agfs987654"
+            },
+            "scoreTxt6": {
+                "text": "0",
+                "class": "ScoreFont",
+                "width": 39,
+                "align": "left",
+                "height": 23,
+                "zIndex": 33,
+                "frames": "531.70,207.10,0.00,1.54,1.54,1.00"
+            },
+            "scoreTxtg2": {
+                "text": "0",
+                "class": "CoinFont",
+                "width": 22,
+                "align": "center",
+                "height": 22,
+                "zIndex": 18,
+                "frames": "89.30,601.95,0.00,1.54,1.54,1.00"
+            },
+            "rankBar3": {
+                "zIndex": 4,
+                "frames": "508.70,301.20,0.00,0.59,0.59,1.00",
+                "class": "agfs987654"
+            },
+            "rankBar4": {
+                "zIndex": 5,
+                "frames": "508.70,191.00,0.00,0.59,0.59,1.00",
+                "class": "agfs987654"
+            },
+            "scoreTxt4": {
+                "text": "0",
+                "class": "ScoreFont",
+                "width": 39,
+                "align": "left",
+                "height": 23,
+                "zIndex": 31,
+                "frames": "530.70,429.55,0.00,1.54,1.54,1.00"
+            },
+            "scoreTxtg1": {
+                "text": "0",
+                "class": "CoinFont",
+                "width": 22,
+                "align": "center",
+                "height": 22,
+                "zIndex": 21,
+                "frames": "87.40,715.50,0.00,1.54,1.54,1.00"
+            },
+            "backBtn": {
+                "zIndex": 11,
+                "frames": "514.00,63.20,0.00,0.89,0.89,1.00",
+                "class": "backBtn"
+            },
+            "scoreTxt": {
+                "text": "999999",
+                "class": "CoinFont",
+                "width": 48,
+                "align": "left",
+                "height": 18,
+                "zIndex": 17,
+                "frames": "84.45,839.60,0.00,2.81,2.81,1.00"
+            },
+            "buy1": {
+                "zIndex": 12,
+                "frames": "552.70,707.45,0.00,1.54,1.54,1.00",
+                "class": "buyBtn"
+            },
+            "menuBtn": {
+                "zIndex": 10,
+                "frames": "130.25,63.85,0.00,0.89,0.89,1.00",
+                "class": "menuBtn1"
+            },
+            "scoreTxt1": {
+                "text": "0",
+                "class": "ScoreFont",
+                "width": 37,
+                "align": "left",
+                "height": 23,
+                "zIndex": 19,
+                "frames": "536.75,769.25,0.00,1.54,1.54,1.00"
+            },
+            "skillTxt": {
+                "text": "999999",
+                "class": "CoinFont",
+                "width": 48,
+                "align": "left",
+                "height": 18,
+                "zIndex": 1,
+                "frames": "319.75,840.20,0.00,2.81,2.81,1.00"
+            },
+            "buy3": {
+                "zIndex": 26,
+                "frames": "553.00,480.65,0.00,1.54,1.54,1.00",
+                "class": "buyBtn"
+            },
+            "buy4": {
+                "zIndex": 27,
+                "frames": "553.00,369.00,0.00,1.54,1.54,1.00",
+                "class": "buyBtn"
+            },
+            "instance1793": {
+                "zIndex": 0,
+                "frames": "5.95,76.25,0.00,1.00,1.00,1.00",
+                "class": "shopaaaaa"
+            },
+            "buy2": {
+                "zIndex": 13,
+                "frames": "553.00,593.15,0.00,1.54,1.54,1.00",
+                "class": "buyBtn"
+            },
+            "scoreTxt5": {
+                "text": "0",
+                "class": "ScoreFont",
+                "width": 39,
+                "align": "left",
+                "height": 23,
+                "zIndex": 32,
+                "frames": "532.60,316.00,0.00,1.54,1.54,1.00"
+            },
+            "skillUpN1": {
+                "zIndex": 6,
+                "frames": "102.35,489.85,0.00,1.00,1.00,1.00",
+                "class": "asdf3254"
+            },
+            "buy6": {
+                "zIndex": 29,
+                "frames": "553.00,147.15,0.00,1.54,1.54,1.00",
+                "class": "buyBtn"
+            },
+            "skillUpN2": {
+                "zIndex": 7,
+                "frames": "102.35,377.50,0.00,1.00,1.00,1.00",
+                "class": "asdf3254"
+            },
+            "label__ads": {
+                "zIndex": 16,
+                "frames": "194.15,746.35,0.00,0.89,0.89,1.00",
+                "class": "ad"
+            },
+            "skillUpN3": {
+                "zIndex": 8,
+                "frames": "102.35,271.45,0.00,1.00,1.00,1.00",
+                "class": "efgjdd87654"
+            },
+            "label__bds": {
+                "zIndex": 15,
+                "frames": "226.15,623.55,0.00,0.89,0.89,1.00",
+                "class": "bd"
+            },
+            "skillUpN4": {
+                "zIndex": 9,
+                "frames": "102.35,159.10,0.00,1.00,1.00,1.00",
+                "class": "adfhi9653"
+            },
+            "label__cds": {
+                "zIndex": 25,
+                "frames": "226.10,530.45,0.00,0.89,0.89,1.00",
+                "class": "cd"
+            },
+            "upGrade": {
+                "zIndex": 14,
+                "frames": "178.10,950.55,0.00,1.54,1.54,1.00",
+                "class": "upGrades"
+            },
+            "label__dds": {
+                "zIndex": 24,
+                "frames": "224.40,416.80,0.00,0.89,0.89,1.00",
+                "class": "dd"
+            },
+            "scoreTxt3": {
+                "text": "0",
+                "class": "ScoreFont",
+                "width": 39,
+                "align": "left",
+                "height": 23,
+                "zIndex": 30,
+                "frames": "532.60,541.25,0.00,1.54,1.54,1.00"
+            },
+            "buy5": {
+                "zIndex": 28,
+                "frames": "553.00,257.35,0.00,1.54,1.54,1.00",
+                "class": "buyBtn"
+            },
+            "scoreTxt2": {
+                "text": "0",
+                "class": "ScoreFont",
+                "width": 39,
+                "align": "left",
+                "height": 23,
+                "zIndex": 20,
+                "frames": "535.45,656.70,0.00,1.54,1.54,1.00"
+            },
+            "label__fds": {
+                "zIndex": 22,
+                "frames": "231.30,198.30,0.00,0.89,0.89,1.00",
+                "class": "fd"
+            },
+            "rankBar1": {
+                "zIndex": 2,
+                "frames": "508.70,524.45,0.00,0.59,0.59,1.00",
+                "class": "agfs987654"
+            },
+            "label__eds": {
+                "zIndex": 23,
+                "frames": "227.90,312.85,0.00,0.89,0.89,1.00",
+                "class": "ed"
+            }
+        },
+        "anchorX": 0.01,
+        "rect": "0,0,640,960",
+        "type": "ShopPP"
+    },
+    "PauseCover": {
+        "totalFrames": 1,
+        "anchorY": -0.04,
+        "children": {
+            "resetBtn": {
+                "zIndex": 4,
+                "frames": "447.30,392.65,0.00,1.00,1.00,1.00",
+                "class": "Symbol23"
+            },
+            "menuBtn": {
+                "zIndex": 2,
+                "frames": "123.30,394.65,0.00,1.00,1.00,1.00",
+                "class": "Symbol21"
+            },
+            "resumeBtn": {
+                "zIndex": 3,
+                "frames": "293.30,386.65,0.00,1.00,1.00,1.00",
+                "class": "Symbol22"
+            },
+            "back": {
+                "zIndex": 1,
+                "frames": "0.00,0.00,0.00,8.83,16.34,1.00",
+                "class": "Symbol13"
+            }
+        },
+        "anchorX": 0.04,
+        "rect": "0,0,640,960",
+        "type": "PauseCover"
+    }
+}, "metadata": {
+    "size": "{1586,1586}",
+    "format": 2,
+    "realTextureFileName": "UI_03.png",
+    "textureFileName": "UI_03.png"
+}, "displays": {
+    "dd": {
+        "anchorY": 0.98,
+        "start": 58,
+        "end": 65,
+        "type": "dd",
+        "anchorX": 0.21
+    },
+    "efgjdd87654": {
+        "anchorY": 0.43,
+        "start": 75,
+        "end": 78,
+        "type": "efgjdd87654",
+        "anchorX": -0.15
+    },
+    "upGrades": {
+        "anchorY": 1.4,
+        "start": 130,
+        "end": 130,
+        "type": "upGrades",
+        "anchorX": -0.02
+    },
+    "LoseKilled": {
+        "anchorY": 0.86,
+        "start": 2,
+        "end": 2,
+        "type": "LoseKilled",
+        "anchorX": 0.33
+    },
+    "LoseIcon": {
+        "anchorY": -0.03,
+        "start": 1,
+        "end": 1,
+        "type": "LoseIcon",
+        "anchorX": 0
+    },
+    "asdf3254": {
+        "anchorY": 0.43,
+        "start": 34,
+        "end": 39,
+        "type": "asdf3254",
+        "anchorX": -0.15
+    },
+    "moreBtn": {
+        "anchorY": 0.5,
+        "start": 5,
+        "end": 5,
+        "type": "MoreGameButton0",
+        "anchorX": 0.15
+    },
+    "ad": {
+        "anchorY": 1.3,
+        "start": 17,
+        "end": 24,
+        "type": "ad",
+        "anchorX": 0.06
+    },
+    "moreBtn1": {
+        "anchorY": 0.5,
+        "start": 6,
+        "end": 6,
+        "type": "MoreGameButton0",
+        "anchorX": 0.5
+    },
+    "adfasdf": {
+        "anchorY": 0.94,
+        "start": 25,
+        "end": 25,
+        "type": "adfasdf",
+        "anchorX": 0.03
+    },
+    "bd": {
+        "anchorY": 0.99,
+        "start": 40,
+        "end": 47,
+        "type": "bd",
+        "anchorX": 0.22
+    },
+    "hjx63749_9298asdgasdg": {
+        "anchorY": 1,
+        "start": 121,
+        "end": 121,
+        "type": "hjx63749_9298asdgasdg",
+        "anchorX": 0
+    },
+    "ttttt": {
+        "anchorY": 1,
+        "start": 129,
+        "end": 129,
+        "type": "ttttt",
+        "anchorX": 0
+    },
+    "backBtn": {
+        "anchorY": 0.5,
+        "start": 48,
+        "end": 48,
+        "type": "btn",
+        "anchorX": 0.5
+    },
+    "LoseCoins": {
+        "anchorY": 0.37,
+        "start": 0,
+        "end": 0,
+        "type": "LoseCoins",
+        "anchorX": -1.31
+    },
+    "Symbol23": {
+        "anchorY": 0,
+        "start": 16,
+        "end": 16,
+        "type": "Symbol23",
+        "anchorX": 0
+    },
+    "agfs987654": {
+        "anchorY": 0.5,
+        "start": 32,
+        "end": 32,
+        "type": "agfs987654",
+        "anchorX": 0.5
+    },
+    "fd": {
+        "anchorY": 1.01,
+        "start": 79,
+        "end": 86,
+        "type": "fd",
+        "anchorX": 0.23
+    },
+    "menuBtn": {
+        "anchorY": 0.5,
+        "start": 51,
+        "end": 51,
+        "type": "btn",
+        "anchorX": 0.5
+    },
+    "menuBG": {
+        "anchorY": 0.03,
+        "start": 123,
+        "end": 123,
+        "type": "menuBG",
+        "anchorX": 0
+    },
+    "Symbol22": {
+        "anchorY": 0,
+        "start": 15,
+        "end": 15,
+        "type": "Symbol22",
+        "anchorX": 0
+    },
+    "menuBtn1": {
+        "anchorY": 0.5,
+        "start": 52,
+        "end": 52,
+        "type": "btn",
+        "anchorX": 0.5
+    },
+    "buyBtn": {
+        "anchorY": 0.58,
+        "end": 50,
+        "anchorX": 0.52,
+        "start": 49,
+        "labels": {
+            "up": {
+                "end": 0,
+                "start": 0
+            },
+            "down": {
+                "end": 1,
+                "start": 1
+            }
+        },
+        "type": "btn"
+    },
+    "afsdfasdfas": {
+        "anchorY": 1,
+        "start": 31,
+        "end": 31,
+        "type": "afsdfasdfas",
+        "anchorX": 0
+    },
+    "shopaaaaa": {
+        "anchorY": 0.08,
+        "start": 124,
+        "end": 124,
+        "type": "shopaaaaa",
+        "anchorX": 0
+    },
+    "startBtn": {
+        "anchorY": 0.31,
+        "start": 54,
+        "end": 54,
+        "type": "btn",
+        "anchorX": 0.44
+    },
+    "Symbol 9": {
+        "anchorY": 0.01,
+        "start": 12,
+        "end": 12,
+        "type": "Symbol 9",
+        "anchorX": 0
+    },
+    "cd": {
+        "anchorY": 1.33,
+        "start": 55,
+        "end": 55,
+        "type": "cd",
+        "anchorX": 0.25
+    },
+    "starLevel": {
+        "anchorY": 0.46,
+        "start": 125,
+        "end": 128,
+        "type": "starLevel",
+        "anchorX": 0.47
+    },
+    "replayBtn": {
+        "anchorY": 0.5,
+        "start": 53,
+        "end": 53,
+        "type": "btn",
+        "anchorX": 0.5
+    },
+    "coin2": {
+        "anchorY": 1.49,
+        "start": 57,
+        "end": 57,
+        "type": "coin2",
+        "anchorX": 0.36
+    },
+    "Symbol13": {
+        "anchorY": 0,
+        "start": 13,
+        "end": 13,
+        "type": "Symbol13",
+        "anchorX": 0
+    },
+    "Symbol 6": {
+        "anchorY": 0,
+        "start": 9,
+        "end": 9,
+        "type": "Symbol 6",
+        "anchorX": 0
+    },
+    "Symbol21": {
+        "anchorY": 0,
+        "start": 14,
+        "end": 14,
+        "type": "Symbol21",
+        "anchorX": 0
+    },
+    "adsfasd": {
+        "anchorY": 0.94,
+        "start": 30,
+        "end": 30,
+        "type": "adsfasd",
+        "anchorX": 0.03
+    },
+    "Symbol 7": {
+        "anchorY": 0,
+        "start": 10,
+        "end": 10,
+        "type": "Symbol 7",
+        "anchorX": 0
+    },
+    "hjx63749_9sds": {
+        "anchorY": 1,
+        "start": 122,
+        "end": 122,
+        "type": "hjx63749_9sds",
+        "anchorX": 0
+    },
+    "LoseScore": {
+        "anchorY": 0.32,
+        "start": 4,
+        "end": 4,
+        "type": "LoseScore",
+        "anchorX": -2.16
+    },
+    "as": {
+        "anchorY": 0.95,
+        "start": 33,
+        "end": 33,
+        "type": "as",
+        "anchorX": 0.03
+    },
+    "coin1": {
+        "anchorY": 1.96,
+        "start": 56,
+        "end": 56,
+        "type": "coin1",
+        "anchorX": 0.33
+    },
+    "adfhi9653": {
+        "anchorY": 0.43,
+        "start": 27,
+        "end": 29,
+        "type": "adfhi9653",
+        "anchorX": -0.15
+    },
+    "gotText": {
+        "anchorY": -0.05,
+        "start": 120,
+        "end": 120,
+        "type": "gotText",
+        "anchorX": 0
+    },
+    "Symbol 8": {
+        "anchorY": 0,
+        "start": 11,
+        "end": 11,
+        "type": "Symbol 8",
+        "anchorX": 0
+    },
+    "LoseSaved": {
+        "anchorY": 0.87,
+        "start": 3,
+        "end": 3,
+        "type": "LoseSaved",
+        "anchorX": 0.33
+    },
+    "Symbol 4": {
+        "anchorY": 0,
+        "start": 7,
+        "end": 7,
+        "type": "Symbol 4",
+        "anchorX": 0
+    },
+    "ed": {
+        "anchorY": 1.08,
+        "start": 67,
+        "end": 74,
+        "type": "ed",
+        "anchorX": 0.18
+    },
+    "Symbol 5": {
+        "anchorY": 0,
+        "start": 8,
+        "end": 8,
+        "type": "Symbol 5",
+        "anchorX": 0
+    },
+    "distans": {
+        "anchorY": 0.69,
+        "start": 66,
+        "end": 66,
+        "type": "distans",
+        "anchorX": -0.72
+    },
+    "adfasdfadsf235": {
+        "anchorY": 0.94,
+        "start": 26,
+        "end": 26,
+        "type": "adfasdfadsf235",
+        "anchorX": 0.03
+    }
+}, "frames": {
+    "UI_03_000128": {
+        "rotated": false,
+        "frame": "{{1546,96},{37,14}}",
+        "sourceSize": "{35,13}",
+        "offset": "{0.00,0.50}"
+    },
+    "UI_03_000025": {
+        "rotated": false,
+        "frame": "{{1517,888},{42,44}}",
+        "sourceSize": "{40,42}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000108": {
+        "rotated": false,
+        "frame": "{{1576,115},{8,16}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-3.00,-0.50}"
+    },
+    "UI_03_000116": {
+        "rotated": false,
+        "frame": "{{1506,450},{12,16}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-2.00,-0.50}"
+    },
+    "UI_03_000067": {
+        "rotated": false,
+        "frame": "{{445,1535},{202,22}}",
+        "sourceSize": "{275,22}",
+        "offset": "{-8.10,-0.35}"
+    },
+    "UI_03_000088": {
+        "rotated": false,
+        "frame": "{{1579,0},{7,15}}",
+        "sourceSize": "{10,14}",
+        "offset": "{-0.50,0.50}"
+    },
+    "UI_03_000056": {
+        "rotated": false,
+        "frame": "{{1553,450},{12,12}}",
+        "sourceSize": "{10,10}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000102": {
+        "rotated": false,
+        "frame": "{{1565,69},{19,27}}",
+        "sourceSize": "{20,25}",
+        "offset": "{1.50,0.00}"
+    },
+    "UI_03_000049": {
+        "rotated": false,
+        "frame": "{{1477,547},{57,32}}",
+        "sourceSize": "{55,30}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000062": {
+        "rotated": false,
+        "frame": "{{1265,1351},{252,24}}",
+        "sourceSize": "{303,22.05}",
+        "offset": "{3.30,0.03}"
+    },
+    "UI_03_000115": {
+        "rotated": false,
+        "frame": "{{1494,450},{12,16}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-2.00,-0.50}"
+    },
+    "UI_03_000127": {
+        "rotated": false,
+        "frame": "{{1545,337},{37,14}}",
+        "sourceSize": "{35,13}",
+        "offset": "{0.00,0.50}"
+    },
+    "UI_03_000019": {
+        "rotated": false,
+        "frame": "{{345,1351},{317,31}}",
+        "sourceSize": "{315,31.999999999999996}",
+        "offset": "{0.00,0.65}"
+    },
+    "UI_03_000003": {
+        "rotated": false,
+        "frame": "{{1285,115},{165,181}}",
+        "sourceSize": "{163,179}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000024": {
+        "rotated": false,
+        "frame": "{{316,1416},{220,32}}",
+        "sourceSize": "{315,31.999999999999996}",
+        "offset": "{-4.95,0.10}"
+    },
+    "UI_03_000087": {
+        "rotated": false,
+        "frame": "{{1546,478},{11,16}}",
+        "sourceSize": "{10,14}",
+        "offset": "{0.50,0.00}"
+    },
+    "UI_03_000007": {
+        "rotated": false,
+        "frame": "{{1443,758},{67,49}}",
+        "sourceSize": "{65,47}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000011": {
+        "rotated": false,
+        "frame": "{{1506,962},{42,63}}",
+        "sourceSize": "{40,61}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000095": {
+        "rotated": false,
+        "frame": "{{1557,494},{11,16}}",
+        "sourceSize": "{10,14}",
+        "offset": "{0.50,0.00}"
+    },
+    "UI_03_000114": {
+        "rotated": false,
+        "frame": "{{1482,450},{12,16}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-2.00,-0.50}"
+    },
+    "UI_03_000041": {
+        "rotated": false,
+        "frame": "{{662,1351},{345,27}}",
+        "sourceSize": "{343,35.4}",
+        "offset": "{0.00,-2.50}"
+    },
+    "UI_03_000045": {
+        "rotated": false,
+        "frame": "{{0,1503},{180,32}}",
+        "sourceSize": "{343,35.4}",
+        "offset": "{-6.05,-2.70}"
+    },
+    "UI_03_000101": {
+        "rotated": false,
+        "frame": "{{1546,0},{22,27}}",
+        "sourceSize": "{20,25}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000037": {
+        "rotated": false,
+        "frame": "{{304,1169},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000029": {
+        "rotated": false,
+        "frame": "{{594,962},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000071": {
+        "rotated": false,
+        "frame": "{{517,1448},{264,22}}",
+        "sourceSize": "{275,22}",
+        "offset": "{-5.55,-0.50}"
+    },
+    "UI_03_000055": {
+        "rotated": false,
+        "frame": "{{1195,1144},{308,20}}",
+        "sourceSize": "{306,18}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000033": {
+        "rotated": false,
+        "frame": "{{1520,1169},{42,44}}",
+        "sourceSize": "{40,42}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000112": {
+        "rotated": false,
+        "frame": "{{1458,450},{12,16}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-2.00,-0.50}"
+    },
+    "UI_03_000066": {
+        "rotated": false,
+        "frame": "{{1450,115},{107,84}}",
+        "sourceSize": "{105,82}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000048": {
+        "rotated": false,
+        "frame": "{{1285,671},{158,87}}",
+        "sourceSize": "{156,85}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000113": {
+        "rotated": false,
+        "frame": "{{1470,450},{12,16}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-2.00,-0.50}"
+    },
+    "UI_03_000076": {
+        "rotated": false,
+        "frame": "{{0,1260},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000077": {
+        "rotated": false,
+        "frame": "{{304,1260},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000086": {
+        "rotated": false,
+        "frame": "{{1039,1448},{297,19}}",
+        "sourceSize": "{295,22.55}",
+        "offset": "{0.00,-1.07}"
+    },
+    "UI_03_000126": {
+        "rotated": false,
+        "frame": "{{1546,27},{37,15}}",
+        "sourceSize": "{35,13}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000061": {
+        "rotated": false,
+        "frame": "{{644,1503},{275,17}}",
+        "sourceSize": "{303,22.05}",
+        "offset": "{0.15,0.53}"
+    },
+    "UI_03_000107": {
+        "rotated": false,
+        "frame": "{{1574,260},{12,16}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-2.00,-0.50}"
+    },
+    "UI_03_000018": {
+        "rotated": false,
+        "frame": "{{345,1382},{229,32}}",
+        "sourceSize": "{315,31.999999999999996}",
+        "offset": "{-14.05,0.20}"
+    },
+    "UI_03_000109": {
+        "rotated": false,
+        "frame": "{{1560,351},{12,16}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-2.00,-0.50}"
+    },
+    "UI_03_000023": {
+        "rotated": false,
+        "frame": "{{1285,845},{269,34}}",
+        "sourceSize": "{315,31.999999999999996}",
+        "offset": "{-8.10,-0.00}"
+    },
+    "UI_03_000094": {
+        "rotated": false,
+        "frame": "{{1557,510},{11,15}}",
+        "sourceSize": "{10,14}",
+        "offset": "{0.50,0.50}"
+    },
+    "UI_03_000100": {
+        "rotated": false,
+        "frame": "{{1546,69},{19,27}}",
+        "sourceSize": "{20,25}",
+        "offset": "{1.50,0.00}"
+    },
+    "UI_03_000085": {
+        "rotated": false,
+        "frame": "{{425,1503},{219,21}}",
+        "sourceSize": "{295,22.55}",
+        "offset": "{-2.05,0.58}"
+    },
+    "UI_03_000054": {
+        "rotated": false,
+        "frame": "{{1285,0},{261,115}}",
+        "sourceSize": "{259,113}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000110": {
+        "rotated": false,
+        "frame": "{{1572,351},{12,16}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-2.00,-0.50}"
+    },
+    "UI_03_000047": {
+        "rotated": false,
+        "frame": "{{574,1382},{244,30}}",
+        "sourceSize": "{343,35.4}",
+        "offset": "{-7.10,-2.35}"
+    },
+    "UI_03_000125": {
+        "rotated": false,
+        "frame": "{{1545,323},{37,14}}",
+        "sourceSize": "{35,13}",
+        "offset": "{0.00,0.50}"
+    },
+    "UI_03_000002": {
+        "rotated": false,
+        "frame": "{{1285,296},{161,182}}",
+        "sourceSize": "{159,180}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000070": {
+        "rotated": false,
+        "frame": "{{1050,1478},{254,21}}",
+        "sourceSize": "{275,22}",
+        "offset": "{-7.90,0.80}"
+    },
+    "UI_03_000014": {
+        "rotated": false,
+        "frame": "{{1446,296},{99,73}}",
+        "sourceSize": "{97,71}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000036": {
+        "rotated": false,
+        "frame": "{{0,1169},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000084": {
+        "rotated": false,
+        "frame": "{{316,1478},{249,23}}",
+        "sourceSize": "{295,22.55}",
+        "offset": "{-1.50,-0.07}"
+    },
+    "UI_03_000040": {
+        "rotated": false,
+        "frame": "{{1007,1351},{258,27}}",
+        "sourceSize": "{343,35.4}",
+        "offset": "{-4.45,5.20}"
+    },
+    "UI_03_000006": {
+        "rotated": false,
+        "frame": "{{1285,584},{158,87}}",
+        "sourceSize": "{156,85}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000106": {
+        "rotated": false,
+        "frame": "{{1545,296},{19,27}}",
+        "sourceSize": "{20,25}",
+        "offset": "{1.50,0.00}"
+    },
+    "UI_03_000032": {
+        "rotated": false,
+        "frame": "{{1523,369},{63,79}}",
+        "sourceSize": "{61,77}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000044": {
+        "rotated": false,
+        "frame": "{{1056,1382},{235,29}}",
+        "sourceSize": "{343,35.4}",
+        "offset": "{-7.80,-1.80}"
+    },
+    "UI_03_000010": {
+        "rotated": false,
+        "frame": "{{1518,584},{58,60}}",
+        "sourceSize": "{56,58}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000065": {
+        "rotated": false,
+        "frame": "{{890,1144},{305,21}}",
+        "sourceSize": "{303,22.05}",
+        "offset": "{0.00,-0.72}"
+    },
+    "UI_03_000028": {
+        "rotated": false,
+        "frame": "{{1202,962},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000111": {
+        "rotated": false,
+        "frame": "{{1446,450},{12,16}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-2.00,-0.50}"
+    },
+    "UI_03_000093": {
+        "rotated": false,
+        "frame": "{{1546,494},{11,16}}",
+        "sourceSize": "{10,14}",
+        "offset": "{0.50,0.00}"
+    },
+    "UI_03_000099": {
+        "rotated": false,
+        "frame": "{{1565,42},{19,27}}",
+        "sourceSize": "{20,25}",
+        "offset": "{1.50,0.00}"
+    },
+    "UI_03_000046": {
+        "rotated": false,
+        "frame": "{{818,1382},{238,30}}",
+        "sourceSize": "{343,35.4}",
+        "offset": "{2.90,-1.50}"
+    },
+    "UI_03_000060": {
+        "rotated": false,
+        "frame": "{{1026,1535},{197,20}}",
+        "sourceSize": "{303,22.05}",
+        "offset": "{5.00,0.38}"
+    },
+    "UI_03_000027": {
+        "rotated": false,
+        "frame": "{{898,962},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000083": {
+        "rotated": false,
+        "frame": "{{781,1448},{258,22}}",
+        "sourceSize": "{295,22.55}",
+        "offset": "{-5.60,1.28}"
+    },
+    "UI_03_000017": {
+        "rotated": false,
+        "frame": "{{536,1416},{220,30}}",
+        "sourceSize": "{315,31.999999999999996}",
+        "offset": "{-17.60,-0.40}"
+    },
+    "UI_03_000053": {
+        "rotated": false,
+        "frame": "{{158,1416},{158,87}}",
+        "sourceSize": "{156,85}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000022": {
+        "rotated": false,
+        "frame": "{{1275,1260},{303,32}}",
+        "sourceSize": "{315,31.999999999999996}",
+        "offset": "{-3.20,0.05}"
+    },
+    "UI_03_000069": {
+        "rotated": false,
+        "frame": "{{972,1416},{277,22}}",
+        "sourceSize": "{275,22}",
+        "offset": "{0.00,-0.15}"
+    },
+    "UI_03_000075": {
+        "rotated": false,
+        "frame": "{{1216,1169},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000082": {
+        "rotated": false,
+        "frame": "{{838,1535},{188,21}}",
+        "sourceSize": "{295,22.55}",
+        "offset": "{-8.70,-0.47}"
+    },
+    "UI_03_000074": {
+        "rotated": false,
+        "frame": "{{808,1478},{242,22}}",
+        "sourceSize": "{275,22}",
+        "offset": "{-2.30,-0.60}"
+    },
+    "UI_03_000001": {
+        "rotated": false,
+        "frame": "{{0,962},{594,207}}",
+        "sourceSize": "{592,205}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000092": {
+        "rotated": false,
+        "frame": "{{1568,478},{11,16}}",
+        "sourceSize": "{10,14}",
+        "offset": "{0.50,0.00}"
+    },
+    "UI_03_000052": {
+        "rotated": false,
+        "frame": "{{0,1416},{158,87}}",
+        "sourceSize": "{156,85}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000005": {
+        "rotated": false,
+        "frame": "{{1285,478},{192,106}}",
+        "sourceSize": "{190,104}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000009": {
+        "rotated": false,
+        "frame": "{{1501,671},{62,53}}",
+        "sourceSize": "{60,51}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000064": {
+        "rotated": false,
+        "frame": "{{1249,1416},{273,22}}",
+        "sourceSize": "{303,22.05}",
+        "offset": "{3.45,-0.22}"
+    },
+    "UI_03_000039": {
+        "rotated": false,
+        "frame": "{{594,1053},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000098": {
+        "rotated": false,
+        "frame": "{{1568,0},{11,27}}",
+        "sourceSize": "{20,25}",
+        "offset": "{-0.50,0.00}"
+    },
+    "UI_03_000031": {
+        "rotated": false,
+        "frame": "{{642,888},{345,65}}",
+        "sourceSize": "{343,63}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000043": {
+        "rotated": false,
+        "frame": "{{756,1416},{216,29}}",
+        "sourceSize": "{343,35.4}",
+        "offset": "{-6.85,-1.05}"
+    },
+    "UI_03_000123": {
+        "rotated": false,
+        "frame": "{{642,0},{643,888}}",
+        "sourceSize": "{641,886}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000081": {
+        "rotated": false,
+        "frame": "{{565,1478},{243,22}}",
+        "sourceSize": "{295,22.55}",
+        "offset": "{-7.75,0.58}"
+    },
+    "UI_03_000035": {
+        "rotated": false,
+        "frame": "{{1202,1053},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000026": {
+        "rotated": false,
+        "frame": "{{1506,1053},{42,44}}",
+        "sourceSize": "{40,42}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000021": {
+        "rotated": false,
+        "frame": "{{316,1448},{201,30}}",
+        "sourceSize": "{315,31.999999999999996}",
+        "offset": "{-18.15,1.45}"
+    },
+    "UI_03_000105": {
+        "rotated": false,
+        "frame": "{{1557,169},{19,27}}",
+        "sourceSize": "{20,25}",
+        "offset": "{1.50,0.00}"
+    },
+    "UI_03_000016": {
+        "rotated": false,
+        "frame": "{{1446,369},{77,81}}",
+        "sourceSize": "{75,79}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000013": {
+        "rotated": false,
+        "frame": "{{1443,584},{75,61}}",
+        "sourceSize": "{73,59}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000104": {
+        "rotated": false,
+        "frame": "{{1557,142},{19,27}}",
+        "sourceSize": "{20,25}",
+        "offset": "{1.50,0.00}"
+    },
+    "UI_03_000058": {
+        "rotated": false,
+        "frame": "{{1332,933},{245,20}}",
+        "sourceSize": "{303,22.05}",
+        "offset": "{0.85,1.08}"
+    },
+    "UI_03_000051": {
+        "rotated": false,
+        "frame": "{{1285,758},{158,87}}",
+        "sourceSize": "{156,85}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000059": {
+        "rotated": false,
+        "frame": "{{1304,1478},{267,20}}",
+        "sourceSize": "{303,22.05}",
+        "offset": "{4.00,-0.02}"
+    },
+    "UI_03_000130": {
+        "rotated": false,
+        "frame": "{{1332,888},{185,45}}",
+        "sourceSize": "{183,43}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000091": {
+        "rotated": false,
+        "frame": "{{1518,450},{12,15}}",
+        "sourceSize": "{10,14}",
+        "offset": "{0.00,0.50}"
+    },
+    "UI_03_000073": {
+        "rotated": false,
+        "frame": "{{0,1535},{227,22}}",
+        "sourceSize": "{275,22}",
+        "offset": "{-1.40,-0.60}"
+    },
+    "UI_03_000122": {
+        "rotated": false,
+        "frame": "{{930,1260},{345,65}}",
+        "sourceSize": "{343,63}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000068": {
+        "rotated": false,
+        "frame": "{{647,1535},{191,21}}",
+        "sourceSize": "{275,22}",
+        "offset": "{-4.00,-0.80}"
+    },
+    "UI_03_000080": {
+        "rotated": false,
+        "frame": "{{227,1535},{218,22}}",
+        "sourceSize": "{295,22.55}",
+        "offset": "{0.60,-1.27}"
+    },
+    "UI_03_000124": {
+        "rotated": false,
+        "frame": "{{0,0},{642,962}}",
+        "sourceSize": "{640,960}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000119": {
+        "rotated": false,
+        "frame": "{{1542,450},{11,14}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-2.50,-1.50}"
+    },
+    "UI_03_000097": {
+        "rotated": false,
+        "frame": "{{1546,42},{19,27}}",
+        "sourceSize": "{20,25}",
+        "offset": "{1.50,0.00}"
+    },
+    "UI_03_000015": {
+        "rotated": false,
+        "frame": "{{1450,199},{83,89}}",
+        "sourceSize": "{81,87}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000012": {
+        "rotated": false,
+        "frame": "{{1510,758},{65,42}}",
+        "sourceSize": "{63,40}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000103": {
+        "rotated": false,
+        "frame": "{{1557,115},{19,27}}",
+        "sourceSize": "{20,25}",
+        "offset": "{1.50,0.00}"
+    },
+    "UI_03_000079": {
+        "rotated": false,
+        "frame": "{{180,1503},{245,21}}",
+        "sourceSize": "{295,22.55}",
+        "offset": "{-7.35,0.68}"
+    },
+    "UI_03_000000": {
+        "rotated": false,
+        "frame": "{{1477,478},{69,69}}",
+        "sourceSize": "{67,67}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000120": {
+        "rotated": false,
+        "frame": "{{608,1260},{322,77}}",
+        "sourceSize": "{320,75}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000129": {
+        "rotated": false,
+        "frame": "{{0,1351},{345,65}}",
+        "sourceSize": "{343,63}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000004": {
+        "rotated": false,
+        "frame": "{{1533,199},{49,61}}",
+        "sourceSize": "{47,59}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000090": {
+        "rotated": false,
+        "frame": "{{1557,478},{11,16}}",
+        "sourceSize": "{10,14}",
+        "offset": "{0.50,0.00}"
+    },
+    "UI_03_000042": {
+        "rotated": false,
+        "frame": "{{1291,1382},{225,29}}",
+        "sourceSize": "{343,35.4}",
+        "offset": "{1.65,-2.85}"
+    },
+    "UI_03_000020": {
+        "rotated": false,
+        "frame": "{{1275,1292},{286,29}}",
+        "sourceSize": "{315,31.999999999999996}",
+        "offset": "{-0.40,1.00}"
+    },
+    "UI_03_000121": {
+        "rotated": false,
+        "frame": "{{987,888},{345,65}}",
+        "sourceSize": "{343,63}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000034": {
+        "rotated": false,
+        "frame": "{{898,1053},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000078": {
+        "rotated": false,
+        "frame": "{{912,1169},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000057": {
+        "rotated": false,
+        "frame": "{{1564,296},{17,17}}",
+        "sourceSize": "{15,15}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000050": {
+        "rotated": false,
+        "frame": "{{1533,260},{41,24}}",
+        "sourceSize": "{55,30}",
+        "offset": "{-0.45,-0.20}"
+    },
+    "UI_03_000030": {
+        "rotated": false,
+        "frame": "{{1506,1097},{42,44}}",
+        "sourceSize": "{40,42}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000008": {
+        "rotated": false,
+        "frame": "{{1443,671},{58,58}}",
+        "sourceSize": "{56,56}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000089": {
+        "rotated": false,
+        "frame": "{{1546,510},{11,15}}",
+        "sourceSize": "{10,14}",
+        "offset": "{0.50,0.50}"
+    },
+    "UI_03_000038": {
+        "rotated": false,
+        "frame": "{{608,1169},{304,91}}",
+        "sourceSize": "{302,89}",
+        "offset": "{0.00,0.00}"
+    },
+    "UI_03_000072": {
+        "rotated": false,
+        "frame": "{{0,1557},{185,24}}",
+        "sourceSize": "{275,22}",
+        "offset": "{-6.90,0.00}"
+    },
+    "UI_03_000063": {
+        "rotated": false,
+        "frame": "{{594,1144},{296,22}}",
+        "sourceSize": "{303,22.05}",
+        "offset": "{-4.25,-1.02}"
+    },
+    "UI_03_000117": {
+        "rotated": false,
+        "frame": "{{1545,351},{15,17}}",
+        "sourceSize": "{14,15}",
+        "offset": "{0.50,0.00}"
+    },
+    "UI_03_000118": {
+        "rotated": false,
+        "frame": "{{1530,450},{12,14}}",
+        "sourceSize": "{14,15}",
+        "offset": "{-2.00,-1.50}"
+    },
+    "UI_03_000096": {
+        "rotated": false,
+        "frame": "{{1568,494},{11,16}}",
+        "sourceSize": "{10,14}",
+        "offset": "{0.50,0.00}"
+    }
+}}

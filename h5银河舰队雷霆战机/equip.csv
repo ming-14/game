@@ -1,0 +1,62 @@
+,name,title,info,rateValue,gold,group,buffName,buffValue
+-1,Item name,Introduction,A detailed description,稀有度,价格,从属组,调用buff名,增加buff值
+0,Life Chip I,Life,Increase the upper limit of life of a spacecraft by 10%,55,50,init,add_hp,10
+1,Life Chip II,Life,Increase the upper limit of life of a spacecraft by 30%,20,250,init,add_hp,30
+2,Life Chip III,Life,Increase the upper limit of life of a spacecraft by 50%,10,1250,,add_hp,50
+3,Reinforced Bullet I,Bullet power,Increase the power of all spacecraft bullets by 10%,50,50,init,add_dmg,10
+4,Enhanced Bullet II,Bullet power,Increase the power of all spacecraft bullets by 30%,20,250,init,add_dmg,30
+5,Improved Bullet III,Bullet power,Increase the power of all spacecraft bullets by 50%,10,1250,,add_dmg,50
+6,Speed chip I,Bullet speed,Increase the launch speed of all aircraft bullets by 10%,45,50,init,add_spd,10
+7,Speed chip II,Bullet speed,Increase the launch speed of all aircraft bullets by 30%,20,500,init,add_spd,30
+8,Speed chip III,Bullet speed,Increase the launch speed of all aircraft bullets by 50%,10,1500,,add_spd,50
+9,Mobile chip I,Moving speed,Increase the speed of all aircraft bullets by 10%,45,100,init,add_mov,10
+10,Mobile chip II,Moving speed,Increased the speed of all aircraft bullets by 30%,20,400,init,add_mov,30
+11,Mobile chip III,Moving speed,Increases the speed of all aircraft bullets by 50%,10,800,,add_mov,50
+12,People are more powerful,As much as possible,"The more aircraft you have, the better the overall aircraft capacity, and the 5% increase in the properties of each aircraft.",8,1500,,FUNCTION,morePlanePower
+13,One currency clearance,Singles,"When only owning one aircraft, the aircraft's capacity increases by 200%",5,1500,,FUNCTION,lessPlanePower
+14,Automatic repair,first aid,"When the spacecraft's strength is low, it will automatically recover",5,1500,,auto_heal,1
+15,Life Synthesizer,Increase in probability,Increase the probability of life lost by the enemy,10,250,init,hp_drop_rate,30
+16,Gold coin collector,Increase in probability,Increase the probability of the enemy dropping a gold coin,5,300,init,gold_drop_rate,30
+17,Alien residence permit,Extra planet,BOSS dropped planets 50% more likely to drop two more,5,2000,,gem_drop_rate,50
+18,Pilot instrument,Increase the number of seats,Increase aircraft position 1,5,1000,init,add_lead,10
+19,Chopper,Probability Crit,The probability of a critical crit of the aircraft is greater than that of a double-strike bullet,5,600,,lucky_shoot_rate,25
+20,Stinger,Scatter shooting,The emission direction of all linear bullets will become unstable,10,400,,line_shoot_random,10
+21,Aircraft Exploration Box,New aircraft,It's easier to beat the enemy to drop the box,10,1200,,chest_drop_rate,20
+22,Prop Exploration Box,New props,It is easier to defeat the enemy to drop props,10,1500,,item_drop_rate,20
+23,Coin replicator,More money,Get a gold coin when you get coins,10,900,,ext_get_gold,1
+24,Energy booster,More energy,When gaining energy gains an extra energy,10,1200,,ext_get_energy,1
+25,Businessman means,More discounts,It's easier to get discounts when shopping at the store,8,1000,,shop_off_rate,50
+26,Recovery chip technology,More recovery,3 additional drops for falling recovery items,8,500,,ext_get_heal,3
+27,Recycle,Reuse,Damaged aircraft will drop gold coins with a certain probability,8,250,,myplane_recycle,1
+28,Injury monitor,Detection of injury,"After receiving the equipment, the damage value of the bullet will be displayed if you attack yourself or your enemy.",10,250,,gui_damage_show,1
+29,Hazard detector,Detection danger,Ability to anticipate dangerous actions of the enemy (not effective),10,300,,gui_danger_check,1
+30,Life detector,Detecting life,Newly-emerged enemies will display the health bar after the equipment is installed.,10,400,,gui_hpbar_show,1
+31,Scattershot I,Increase the number of,Increase the number of shotguns for all aircraft 1,8,400,,scope_shoot_add,1
+32,Addition II,Increase the number of,Increase the number of shot bombs for all aircraft 2,5,600,,scope_shoot_add,1
+33,Mineral miner,Energy probability,Rest areas are more prone to energy ores,15,240,,map_energy_rate,50
+34,Gold miner,Gold mine probability,Rest area is more likely to appear gold ore,15,240,,map_gold_rate,50
+35,Automatic command,Automatic queue,Automatic random switching of queues,10,300,,queue_break,1
+36,virus,Can't delete,Can't actively remove equipment skills and spacecraft,3,999,,item_delete_lock,1
+37,Event warning chip,event,The rest area is more prone to special events,16,650,,map_event_rate,50
+38,Businessman alliance chip,store,Rest area is more likely to appear,14,650,,map_shop_rate,50
+39,Dangerous increase,More difficult,Exploring the planet has greatly increased the basic risk,8,450,,planet_danger_increase,50
+40,Energy saving mode,Less energy,Exploring the basic energy consumption of the planet decreases,9,680,,planet_cost,50
+41,Trading Expert,cheaper,50% reduction in resource consumption in event transactions,10,1400,,event_off_max,50
+42,Hard to lower,Hard to lower,50% loss of control time after being hit by bullets,5,1800,,shake_time_down,50
+43,Hard to cancel,Hard to cancel,The plane will not fall into a momentary runaway state after being hit by a bullet,4,2200,,shake_time_down,95
+44,Reduce enemy,Smaller,The size of the enemy becomes smaller (bullets do not become smaller),5,1250,,enemy_size,-50
+45,Time gear acceleration,time,The time around me has changed \ Things other than myself have become faster,1,2000,,game_speed,30
+46,Time gear reduction,time,The time around me has changed \ Things other than myself have slowed down,1,2000,,game_speed,-30
+47,Super Scientific Analysis Instruments,Three-in-one chip,At the same time with the effect of injury monitor \ danger detector \ life detector,5,2800,character,FUNCTION,superGameInfo
+48,Lord style,leader,Rest area is more prone to special events \ shop and ore,14,4200,character,FUNCTION,leadStyle
+49,BOSS battle chip,Weakened BOSS,"When holding the chip, the \BOSS start will be reduced to half-blood",10,4800,character,boss_hp_decrease,50
+50,Gemini chip,Double elite,"If you hold the chip, two elite ships will appear at the same time",5,2500,,create_elite_double,1
+51,Group tactics,Number of enemies,5 additional enemies per wave,4,2500,,create_more_enemy,5
+52,Process acceleration,save time,Reduced time spent on planetary travel by half,1,3800,,travel_distance_double,1
+53,Danger trigger,crisis,"When the aircraft lives below 25%, the bullet power is increased by 100%",4,3000,,danger_trigger,1
+54,Absolute justice,1HP,Both your own aircraft and enemy planes are destroyed by 1 strike (5 damage to BOSS),4,5000,,all_one_kill,1
+55,Death Meteor,meteor,"When the owning aircraft is destroyed, it immediately launches the meteor's killing skills.",5,3500,,death_skill_use,2
+56,Death clear,Clear screen,"When the owned aircraft is destroyed, it immediately starts to clear the nirvana of the full-screen barrage.",5,3500,,death_skill_use,15
+57,sacrifice spirit,restore,"When the owned aircraft was destroyed, it immediately started to completely restore the health of other aircraft.",5,3500,,death_skill_use,7
+58,Trap delay,delay,It is not so easy to re-emerge the organ trap\ will only appear once after a delay of 1 minute,10,2000,,break_danger_switch,30
+59,Bullet zoom out,Reduced,The size of bullets fired by enemy missiles is reduced by 30%.,10,2500,,enemy_bullet_size,-30

@@ -1,0 +1,22 @@
+,name,title,info,rateValue,gold,group,
+-1,必杀名字,简介,详细,稀有度,价格,从属组,实装?
+0,Quantum entanglement,reducer,"After use, all the barrage on the screen will be halved.",80,600,init,*
+1,Missile launch,missile,Continuing launch of missile proliferation attacks,80,1000,init,*
+2,Superstar Shock,Launch Star,Continuous killing of the stars,80,800,init,*
+3,Bullet jammer,Interfering bullets,Interfere with the trajectory of ordinary bullets. (random switching angle),40,600,init,*
+4,Singular point,Eliminate bullets,Summons a magical array that can absorb enemy bullets.,30,900,,*
+5,replica,copy,Randomly copy an aircraft in the team and add it to the team.,30,3000,,*
+6,Thunder ball,Continuous injury,Summon lightning balls from the sky.,10,900,,*
+7,full recovery,Repair body,Restore all body's health,10,1200,,*
+8,Remodeling,Destruction,Randomly destroy an aircraft and regain one.,50,2500,,*
+9,Escape the planet,Escape from danger,Skip the exploration process of the planet\Directly enter the final BOSS area,2,800,,*
+10,Spend the money,Money power,Consume 1000 gold coins to launch strong attacks and the number of gold coins decreases,50,666,,*
+11,Dangerous bomb,Bomb attack,Releasing a lot of bombs,20,1500,,*
+12,Money random,Games,Re-arrange your figures for money,10,2000,,*
+13,Flame spread,Random flame,Random flame rings on the screen,100,1000,,*
+14,Enemy weakened,HP cuts,Cuts half the life of all planes on the field (except Boss),50,1000,,*
+15,Barrage clear,Eliminate barrage,Within 5 seconds \ Clear one enemy screen every second on the screen,50,800,,*
+16,Assault by the whole army,gear,Every plane on the field will launch several gear attacks,50,1200,,*
+17,Energy conversion,Bullets change energy,Turn all enemy bullets on the field into energy,25,1000,,*
+18,Destruction of energy,Energy consumption,"Automatically destroys a hostile machine on the field, consumes 3 energy per rack, and breaks when there is insufficient capacity.",10,850,,*
+19,Continuous recovery,Recovery per second,Restore HP 30% per second per aircraft / Restore 10 seconds total,20,2400,,*

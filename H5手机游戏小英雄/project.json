@@ -1,0 +1,14 @@
+{
+    "landscape": false,
+    "rotateImg": "res/rotate.png",
+    "version": 1.7,
+    "flaxDir": "",
+
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 30,
+    "id" : "gameCanvas",
+    "renderMode" : 1
+}

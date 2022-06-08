@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>game</title>
+
+        <style>
+            section {
+                  display: flex;
+                  flex-wrap: wrap;
+                }
+            
+                section::after {
+                  content: '';
+                  flex-grow: 999999999;
+                }
+            
+                .img-wrapper {
+                  flex-grow: 1;
+                  margin: 2px;
+                  background-color: violet;
+                  height: 200px;
+                  position: relative;
+                }
+            
+                .img-wrapper img {
+                  height: 200px;
+                  object-fit: cover;
+                  min-width: 100%;
+                  vertical-align: bottom;
+                }
+            
+                .img-wrapper .info {
+                  opacity: 0;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  bottom: 0;
+                  background: rgba(77, 77, 77, 0.3);
+                  transition: all 0.5s;
+                }
+            
+                .img-wrapper .info .title {
+                  transition: height 0.5s;
+                  padding: 0 10px;
+                  background: rgba(0, 0, 0, 0.5);
+                  color: white;
+                  line-height: 40px;
+                  text-align: center;
+            	  white-space: nowrap;
+                  text-overflow: ellipsis;
+            	  overflow: hidden;
+                  position: absolute;
+                  bottom: 0;
+                  left: 0;
+                  right: 0;
+                  height: 0;
+                }
+            
+                .img-wrapper:hover .info {
+                  opacity: 1;
+                }
+            
+                .img-wrapper:hover .title {
+                  height: 40px;
+                }
+        </style>
+    </head>
+
+    <body>
+        <section id="raw">
+        </section>
+    </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $.get("list", function(data, status)
+        {
+            if (status === "success")
+            {
+                var datalist = data.split("\n");
+                for(var i = 0; i < datalist.length; ++i)
+                {
+                    var div = document.createElement('div');
+                    div.innerHTML = '<div class="img-wrapper"><img src="'+datalist[i]+"/pic.png"+'" alt=""><div class="info"><div class="title"><a href="'+datalist[i]+"/index.html"+'">'+datalist[i]+"</a>"+'</div></div></div>';
+                    document.getElementById('raw').appendChild(div);
+                }
+            }
+        });
+    </script>
+</html>

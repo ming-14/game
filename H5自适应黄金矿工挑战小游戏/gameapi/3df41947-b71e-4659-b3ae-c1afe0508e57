@@ -1,0 +1,275 @@
+/*<script>*/
+window.famobi_env = window.famobi_env || "gp";
+
+var _fgq = [];
+
+(function(d, url, fgJS, firstJS) {
+    fgJS = d.createElement('script');
+    firstJS = d.getElementsByTagName('script')[0];
+    fgJS.src = url;
+    fgJS.onload = function() {
+        if (typeof fg_api == "function" && typeof famobi != "undefined" && famobi instanceof fg_api) {
+            return;
+        }
+
+        famobi = new fg_api({
+            "features": {
+                "highscores": 1,
+                "menu": 1,
+                "standalone": false,
+                "fullscreen": 1,
+                "screenshot": 0,
+                "payment": 0,
+                "ads": 1
+            },
+            "game_i18n": {
+                "de": {
+                    "api.back": "&laquo; zur&uuml;ck",
+                    "api.more": "&raquo; mehr Spiele",
+                    "api.fullscreen": "[+] Vollbildmodus",
+                    "api.continue": "Weiter",
+                    "api.play_now": "Jetzt spielen",
+                    "api.ad_modal_header": "Werbung schlie\u00dft automatisch in&hellip;",
+                    "api.ad_modal_header2": "Werbung&hellip;",
+                    "api.ad_modal_header3": "L\u00e4dt&hellip;",
+                    "api.teaser_modal_header": "Spiele jetzt den n\u00e4chsten Teil&hellip;",
+                    "api.no_abo": "Kein Abo!",
+                    "api.secure_payment": "Sicheres Bezahlen!",
+                    "api.paymentmethod_cc": "Kreditkarte",
+                    "api.paymentmethod_paypal": "PayPal",
+                    "api.paymentmethod_sms": "SMS",
+                    "api.payment_cta": "Weiter",
+                    "api.install_app_text": "Kostenlose Vollversion!",
+                    "api.install_app_cta": "App installieren"
+                },
+                "en": {
+                    "api.back": "&laquo; Back",
+                    "api.more": "&raquo; More Games",
+                    "api.fullscreen": "[+] Fullscreen mode",
+                    "api.continue": "Continue",
+                    "api.play_now": "Play now",
+                    "api.ad_modal_header": "Advertisement closes in&hellip;",
+                    "api.ad_modal_header2": "Advertisement&hellip;",
+                    "api.ad_modal_header3": "Loading&hellip;",
+                    "api.ad_modal_header_blocked": "Not available due to policy reasons",
+                    "api.teaser_modal_header": "Continue with the next episode&hellip;",
+                    "api.no_abo": "No Subscription!",
+                    "api.secure_payment": "Secure Payment!",
+                    "api.paymentmethod_cc": "Credit Card",
+                    "api.paymentmethod_paypal": "PayPal",
+                    "api.paymentmethod_sms": "SMS",
+                    "api.payment_cta": "Next",
+                    "api.install_app_text": " \ud83d\udc4d &nbsp;Free Full Version!",
+                    "api.install_app_cta": "Install now"
+                },
+                "tr": {
+                    "api.back": "&laquo; Geri",
+                    "api.more": "&raquo; Daha Fazla Oyun",
+                    "api.fullscreen": "Tam ekran",
+                    "api.continue": "Devam",
+                    "api.play_now": "Oyna",
+                    "api.ad_modal_header": "Reklam &ndash; otomatik kapanacakt\u0131r&hellip;",
+                    "api.ad_modal_header2": "Reklam&hellip;",
+                    "api.ad_modal_header3": "Reklam&hellip;",
+                    "api.teaser_modal_header": "Sonraki B\u00f6l\u00fcm&hellip;",
+                    "api.no_abo": "Abonelik Yoktur!",
+                    "api.secure_payment": "G\u00fcvenli \u00d6deme!",
+                    "api.paymentmethod_cc": "Kredi Kart\u0131",
+                    "api.paymentmethod_paypal": "PayPal",
+                    "api.paymentmethod_sms": "SMS",
+                    "api.payment_cta": "Sonraki",
+                    "api.install_app_text": " \ud83d\udc4d &nbsp;Free Full Version!",
+                    "api.install_app_cta": "Install now"
+                },
+                "es": {
+                    "api.back": "&laquo; Regresar",
+                    "api.more": "&raquo; M\u00e1s juegos",
+                    "api.fullscreen": "[+] Modo pantalla completa",
+                    "api.continue": "Continuar",
+                    "api.play_now": "Reproducir ahora",
+                    "api.ad_modal_header": "La publicidad se cerrar\u00e1 en&hellip;",
+                    "api.ad_modal_header2": "Anuncio&hellip;",
+                    "api.ad_modal_header3": "Anuncio&hellip;",
+                    "api.ad_modal_header_blocked": "Not available due to policy reasons",
+                    "api.teaser_modal_header": "Continuar con el siguiente episodio&hellip;",
+                    "api.no_abo": "No Subscription!",
+                    "api.secure_payment": "Secure Payment!",
+                    "api.paymentmethod_cc": "Credit Card",
+                    "api.paymentmethod_paypal": "PayPal",
+                    "api.paymentmethod_sms": "SMS",
+                    "api.payment_cta": "Next",
+                    "api.install_app_text": "Free Full Version!",
+                    "api.install_app_cta": "Install now"
+                },
+                "default": {
+                    "api.back": "&laquo; Back",
+                    "api.more": "&raquo; More Games",
+                    "api.fullscreen": "[+] Fullscreen mode",
+                    "api.continue": "Continue",
+                    "api.play_now": "Play now",
+                    "api.ad_modal_header": "Advertisement closes in&hellip;",
+                    "api.ad_modal_header2": "Advertisement&hellip;",
+                    "api.ad_modal_header3": "Loading&hellip;",
+                    "api.ad_modal_header_blocked": "Not available due to policy reasons",
+                    "api.teaser_modal_header": "Continue with the next episode&hellip;",
+                    "api.no_abo": "No Subscription!",
+                    "api.secure_payment": "Secure Payment!",
+                    "api.paymentmethod_cc": "Credit Card",
+                    "api.paymentmethod_paypal": "PayPal",
+                    "api.paymentmethod_sms": "SMS",
+                    "api.payment_cta": "Next",
+                    "api.install_app_text": " \ud83d\udc4d &nbsp;Free Full Version!",
+                    "api.install_app_cta": "Install now",
+             
+                    "more_games_image": ".\/600x253.png",
+ 
+                    "preload_image": ".\/gameapi\/v1\/invisPreloadImage.png",
+                    "test_preload_image": ".\/gameapi\/v1\/testPreloadImage.png"
+                }
+            },
+            "gameParams": {
+                "languages_available": ["de", "tr", "en"],
+                "flags": {
+                    "exclusive": 1
+                },
+                "aspectRatio": 1.778,
+                "highscores_enabled": 1,
+                "fullscreen_enabled": 1,
+                "header_image": "GoldMinerTom_Header.jpg"
+            },
+            "urlRoot": "./",
+            "assetsPath": ".\/gameapi\/assets\/0.2-d6965a26",
+            "ts": 1490855573000,
+            "short_url": "https:\/\/play.famobi.com\/gold-miner-tom\/A1202-1",
+            "uuid": "09c7b979-85ce-4e92-aaa6-3f61d00f15f0",
+            "pid": "6112a388-2bcc-4ce6-9ad9-40c907838b79",
+            "aid": "A1202-1",
+            "name": "\"黄金矿工挑战\"",
+            "package_id": "\"gold-miner-tom\"",
+            "languages": ["de", "en", "tr", "es"],
+            "ads": {
+                "min_s_between": 0,
+                "min_s_before": 0,
+                "show_initial": false,
+                "show_video": false,
+                "show_video_initial": false,
+                "show_click2play": false,
+                "description_url": ".\/description\/gold-miner-tom?hl=en",
+                "provider": "dfp",
+                "dfp_available": false,
+                "vast_url": ""
+            },
+            "i18n": {
+                "default": {
+                    "api.back": "&laquo; Back",
+                    "api.more": "&raquo; More Games",
+                    "api.fullscreen": "[+] Fullscreen mode",
+                    "api.continue": "Continue",
+                    "api.play_now": "Play now",
+                    "api.ad_modal_header": "Advertisement closes in&hellip;",
+                    "api.ad_modal_header2": "Advertisement&hellip;",
+                    "api.ad_modal_header3": "Loading&hellip;",
+                    "api.ad_modal_header_blocked": "Not available due to policy reasons",
+                    "api.teaser_modal_header": "Continue with the next episode&hellip;",
+                    "api.no_abo": "No Subscription!",
+                    "api.secure_payment": "Secure Payment!",
+                    "api.paymentmethod_cc": "Credit Card",
+                    "api.paymentmethod_paypal": "PayPal",
+                    "api.paymentmethod_sms": "SMS",
+                    "api.payment_cta": "Next",
+                    "api.install_app_text": " \ud83d\udc4d &nbsp;Free Full Version!",
+                    "api.install_app_cta": "Install now"
+                },
+                "en": {
+                    "api.back": "&laquo; Back",
+                    "api.more": "&raquo; More Games",
+                    "api.fullscreen": "[+] Fullscreen mode",
+                    "api.continue": "Continue",
+                    "api.play_now": "Play now",
+                    "api.ad_modal_header": "Advertisement closes in&hellip;",
+                    "api.ad_modal_header2": "Advertisement&hellip;",
+                    "api.ad_modal_header3": "Loading&hellip;",
+                    "api.ad_modal_header_blocked": "Not available due to policy reasons",
+                    "api.teaser_modal_header": "Continue with the next episode&hellip;",
+                    "api.no_abo": "No Subscription!",
+                    "api.secure_payment": "Secure Payment!",
+                    "api.paymentmethod_cc": "Credit Card",
+                    "api.paymentmethod_paypal": "PayPal",
+                    "api.paymentmethod_sms": "SMS",
+                    "api.payment_cta": "Next",
+                    "api.install_app_text": " \ud83d\udc4d &nbsp;Free Full Version!",
+                    "api.install_app_cta": "Install now"
+                },
+                "de": {
+                    "api.back": "&laquo; zur&uuml;ck",
+                    "api.more": "&raquo; mehr Spiele",
+                    "api.fullscreen": "[+] Vollbildmodus",
+                    "api.continue": "Weiter",
+                    "api.play_now": "Jetzt spielen",
+                    "api.ad_modal_header": "Werbung schlie\u00dft automatisch in&hellip;",
+                    "api.ad_modal_header2": "Werbung&hellip;",
+                    "api.ad_modal_header3": "L\u00e4dt&hellip;",
+                    "api.teaser_modal_header": "Spiele jetzt den n\u00e4chsten Teil&hellip;",
+                    "api.no_abo": "Kein Abo!",
+                    "api.secure_payment": "Sicheres Bezahlen!",
+                    "api.paymentmethod_cc": "Kreditkarte",
+                    "api.paymentmethod_paypal": "PayPal",
+                    "api.paymentmethod_sms": "SMS",
+                    "api.payment_cta": "Weiter",
+                    "api.install_app_text": "Kostenlose Vollversion!",
+                    "api.install_app_cta": "App installieren"
+                },
+                "tr": {
+                    "api.back": "&laquo; Geri",
+                    "api.more": "&raquo; Daha Fazla Oyun",
+                    "api.fullscreen": "Tam ekran",
+                    "api.continue": "Devam",
+                    "api.play_now": "Oyna",
+                    "api.ad_modal_header": "Reklam &ndash; otomatik kapanacakt\u0131r&hellip;",
+                    "api.ad_modal_header2": "Reklam&hellip;",
+                    "api.ad_modal_header3": "Reklam&hellip;",
+                    "api.teaser_modal_header": "Sonraki B\u00f6l\u00fcm&hellip;",
+                    "api.no_abo": "Abonelik Yoktur!",
+                    "api.secure_payment": "G\u00fcvenli \u00d6deme!",
+                    "api.paymentmethod_cc": "Kredi Kart\u0131",
+                    "api.paymentmethod_paypal": "PayPal",
+                    "api.paymentmethod_sms": "SMS",
+                    "api.payment_cta": "Sonraki",
+                    "api.install_app_text": " \ud83d\udc4d &nbsp;Free Full Version!",
+                    "api.install_app_cta": "Install now"
+                },
+                "es": {
+                    "api.back": "&laquo; Regresar",
+                    "api.more": "&raquo; M\u00e1s juegos",
+                    "api.fullscreen": "[+] Modo pantalla completa",
+                    "api.continue": "Continuar",
+                    "api.play_now": "Reproducir ahora",
+                    "api.ad_modal_header": "La publicidad se cerrar\u00e1 en&hellip;",
+                    "api.ad_modal_header2": "Anuncio&hellip;",
+                    "api.ad_modal_header3": "Anuncio&hellip;",
+                    "api.ad_modal_header_blocked": "Not available due to policy reasons",
+                    "api.teaser_modal_header": "Continuar con el siguiente episodio&hellip;",
+                    "api.no_abo": "No Subscription!",
+                    "api.secure_payment": "Secure Payment!",
+                    "api.paymentmethod_cc": "Credit Card",
+                    "api.paymentmethod_paypal": "PayPal",
+                    "api.paymentmethod_sms": "SMS",
+                    "api.payment_cta": "Next",
+                    "api.install_app_text": "Free Full Version!",
+                    "api.install_app_cta": "Install now"
+                }
+            },
+            "branding": {
+  
+                "more_games_image": ".\/600x253.png",
+         
+                "preload_image": ".\/gameapi\/v1\/invisPreloadImage.png",
+                "test_preload_image": ".\/gameapi\/v1\/testPreloadImage.png"
+            },
+            
+        }, _fgq, '');
+    };
+    firstJS.parentNode.insertBefore(fgJS, firstJS);
+})(document, './gameapi/assets/0.2-d6965a26/js/gameapi.js');
+
+ 

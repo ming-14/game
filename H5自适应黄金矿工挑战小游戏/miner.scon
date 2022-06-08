@@ -1,0 +1,1373 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 100,
+					"length": 500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"c1": 0.637271,
+								"c2": 0,
+								"c3": 0.4992,
+								"c4": 0.995305,
+								"curve_type": "bezier",
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 1.036269,
+										"abs_y": 0.518135,
+										"file": 8,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "shadow",
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -6.624606,
+										"abs_y": -32.700315,
+										"file": 0,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "arm",
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 21.434197,
+										"abs_y": -28.399309,
+										"file": 2,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "bodym",
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -9.84456,
+										"abs_y": -12.435233,
+										"file": 7,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "roll",
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 23.974763,
+										"abs_y": -24.290221,
+										"file": 6,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "handle",
+										"timeline": "7",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 41.324921,
+										"abs_y": -50.788644,
+										"file": 1,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "armup",
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 1.2038779999999747,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 22.082019,
+										"abs_y": -76.025237,
+										"file": 3,
+										"folder": 0,
+										"id": 6,
+										"key": 0,
+										"name": "h1",
+										"timeline": "3",
+										"z_index": "6"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 43.533123,
+										"abs_y": -36.908517,
+										"file": 5,
+										"folder": 0,
+										"id": 7,
+										"key": 0,
+										"name": "hand",
+										"timeline": "6",
+										"z_index": "7"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"c1": 0.8336,
+								"c2": 0,
+								"c3": 0.3943,
+								"c4": 0.9953,
+								"curve_type": "bezier",
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": "7",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 1,
+										"timeline": "6",
+										"z_index": "7"
+									}
+								],
+								"time": 250
+							}
+						]
+					},
+					"name": "idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0,
+										"x": -9.84456,
+										"y": 12.435233
+									},
+									"spin": 0
+								}
+							],
+							"name": "roll",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0,
+										"x": 1.036269,
+										"y": -0.518135
+									},
+									"spin": 0
+								}
+							],
+							"name": "shadow",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"x": 21.434197,
+										"y": 28.399309
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"scale_y": 0.957981,
+										"x": 21.434197,
+										"y": 26.949655
+									},
+									"spin": 0,
+									"time": 250
+								}
+							],
+							"name": "bodym",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 1.2038779999999747,
+										"file": 3,
+										"folder": 0,
+										"x": 22.082019,
+										"y": 76.025237
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 2.417075000000011,
+										"file": 3,
+										"folder": 0,
+										"x": 22.082019,
+										"y": 74.025237
+									},
+									"spin": -1,
+									"time": 250
+								}
+							],
+							"name": "h1",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": -6.624606,
+										"y": 32.700315
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 11.343582000000026,
+										"file": 0,
+										"folder": 0,
+										"x": -4.624606,
+										"y": 31.700315
+									},
+									"spin": -1,
+									"time": 250
+								}
+							],
+							"name": "arm",
+							"obj": 4
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": 41.324921,
+										"y": 50.788644
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": 41.324921,
+										"y": 48.788644
+									},
+									"spin": 0,
+									"time": 250
+								}
+							],
+							"name": "armup",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"x": 43.533123,
+										"y": 36.908517
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 357.246156,
+										"file": 5,
+										"folder": 0,
+										"x": 44.533123,
+										"y": 35.908517
+									},
+									"time": 250
+								}
+							],
+							"name": "hand",
+							"obj": 6
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"x": 23.974763,
+										"y": 24.290221
+									},
+									"spin": 0
+								}
+							],
+							"name": "handle",
+							"obj": 7
+						}
+					]
+				},
+				{
+					"id": 1,
+					"interval": 100,
+					"length": 500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"c1": 0.637271,
+								"c2": 0,
+								"c3": 0.4992,
+								"c4": 0.995305,
+								"curve_type": "bezier",
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 1.036269,
+										"abs_y": 0.518135,
+										"file": 8,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "shadow",
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -6.624606,
+										"abs_y": -32.700315,
+										"file": 0,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "arm",
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 21.434197,
+										"abs_y": -28.399309,
+										"file": 2,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "bodym",
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -9.84456,
+										"abs_y": -12.435233,
+										"file": 7,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "roll",
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 23.974763,
+										"abs_y": -24.290221,
+										"file": 6,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "handle",
+										"timeline": "7",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 290.541744,
+										"abs_pivot_x": 0.535612,
+										"abs_pivot_y": 0.518477,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 32.094554,
+										"abs_y": -38.368833,
+										"file": 1,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "armup",
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 11.30731800000001,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 8.610516,
+										"abs_y": -73.952698,
+										"file": 3,
+										"folder": 0,
+										"id": 6,
+										"key": 0,
+										"name": "h1",
+										"timeline": "3",
+										"z_index": "6"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 353.008161,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 22.807734,
+										"abs_y": -16.701263,
+										"file": 5,
+										"folder": 0,
+										"id": 7,
+										"key": 0,
+										"name": "hand",
+										"timeline": "6",
+										"z_index": "7"
+									}
+								]
+							}
+						]
+					},
+					"name": "throw",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0,
+										"x": -9.84456,
+										"y": 12.435233
+									},
+									"spin": 0
+								}
+							],
+							"name": "roll",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0,
+										"x": 1.036269,
+										"y": -0.518135
+									},
+									"spin": 0
+								}
+							],
+							"name": "shadow",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"x": 21.434197,
+										"y": 28.399309
+									},
+									"spin": 0
+								}
+							],
+							"name": "bodym",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 11.30731800000001,
+										"file": 3,
+										"folder": 0,
+										"x": 8.610516,
+										"y": 73.952698
+									},
+									"spin": 0
+								}
+							],
+							"name": "h1",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": -6.624606,
+										"y": 32.700315
+									},
+									"spin": 0
+								}
+							],
+							"name": "arm",
+							"obj": 4
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 290.541744,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.535612,
+										"pivot_y": 0.518477,
+										"x": 32.094554,
+										"y": 38.368833
+									},
+									"spin": 0
+								}
+							],
+							"name": "armup",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 353.008161,
+										"file": 5,
+										"folder": 0,
+										"x": 22.807734,
+										"y": 16.701263
+									},
+									"spin": 0
+								}
+							],
+							"name": "hand",
+							"obj": 6
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"x": 23.974763,
+										"y": 24.290221
+									},
+									"spin": 0
+								}
+							],
+							"name": "handle",
+							"obj": 7
+						}
+					]
+				},
+				{
+					"eventline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"time": 250
+								}
+							],
+							"name": "backSound"
+						}
+					],
+					"id": 2,
+					"interval": 100,
+					"length": 500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"c1": 0.637271,
+								"c2": 0,
+								"c3": 0.4992,
+								"c4": 0.995305,
+								"curve_type": "bezier",
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 1.036269,
+										"abs_y": 0.518135,
+										"file": 8,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "shadow",
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -6.624606,
+										"abs_y": -31.700315,
+										"file": 0,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "arm",
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 21.434197,
+										"abs_y": -28.399309,
+										"file": 2,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "bodym",
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 0.977992,
+										"abs_x": -9.84456,
+										"abs_y": -11.67595,
+										"file": 7,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "roll",
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 23.974763,
+										"abs_y": -24.290221,
+										"file": 6,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "handle",
+										"timeline": "7",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 41.324921,
+										"abs_y": -48.788644,
+										"file": 1,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "armup",
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 1.2038779999999747,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 22.082019,
+										"abs_y": -76.025237,
+										"file": 4,
+										"folder": 0,
+										"id": 6,
+										"key": 0,
+										"name": "h1",
+										"timeline": "3",
+										"z_index": "6"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 45.80585,
+										"abs_y": -34.63579,
+										"file": 5,
+										"folder": 0,
+										"id": 7,
+										"key": 0,
+										"name": "hand",
+										"timeline": "6",
+										"z_index": "7"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"c1": 0.637271,
+								"c2": 0,
+								"c3": 0.4992,
+								"c4": 0.995305,
+								"curve_type": "bezier",
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"timeline": "7",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 1,
+										"timeline": "6",
+										"z_index": "7"
+									}
+								],
+								"time": 250
+							}
+						]
+					},
+					"name": "roll",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0,
+										"scale_y": 0.977992,
+										"x": -9.84456,
+										"y": 11.67595
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0,
+										"scale_y": 0.987885,
+										"x": -9.84456,
+										"y": 12.017262
+									},
+									"spin": 0,
+									"time": 250
+								}
+							],
+							"name": "roll",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0,
+										"x": 1.036269,
+										"y": -0.518135
+									},
+									"spin": 0
+								}
+							],
+							"name": "shadow",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"x": 21.434197,
+										"y": 28.399309
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 1.2961220000000253,
+										"file": 2,
+										"folder": 0,
+										"scale_y": 0.941977,
+										"x": 21.434197,
+										"y": 26.397507
+									},
+									"spin": -1,
+									"time": 250
+								}
+							],
+							"name": "bodym",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 1.2038779999999747,
+										"file": 4,
+										"folder": 0,
+										"x": 22.082019,
+										"y": 76.025237
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 3.9683519999999817,
+										"file": 4,
+										"folder": 0,
+										"x": 20.469116,
+										"y": 74.412333
+									},
+									"spin": -1,
+									"time": 250
+								}
+							],
+							"name": "h1",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": -6.624606,
+										"y": 31.700315
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 11.376228000000026,
+										"file": 0,
+										"folder": 0,
+										"x": -7.624606,
+										"y": 30.700315
+									},
+									"spin": -1,
+									"time": 250
+								}
+							],
+							"name": "arm",
+							"obj": 4
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": 41.324921,
+										"y": 48.788644
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 346.276311,
+										"file": 1,
+										"folder": 0,
+										"x": 44.231898,
+										"y": 37.881667
+									},
+									"time": 250
+								}
+							],
+							"name": "armup",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"x": 45.80585,
+										"y": 34.63579
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 10.661878000000002,
+										"file": 5,
+										"folder": 0,
+										"x": 47.629318,
+										"y": 19.913803
+									},
+									"spin": -1,
+									"time": 250
+								}
+							],
+							"name": "hand",
+							"obj": 6
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"x": 23.974763,
+										"y": 24.290221
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"scale_x": 1.146889,
+										"scale_y": -0.502003,
+										"x": 25.929688,
+										"y": 13.712601
+									},
+									"spin": 0,
+									"time": 250
+								}
+							],
+							"name": "handle",
+							"obj": 7
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "miner",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 7,
+							"folder": 0
+						}
+					],
+					"name": "miner_roll",
+					"realname": "roll",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						}
+					],
+					"name": "miner_shadow",
+					"realname": "shadow",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "miner_bodym",
+					"realname": "bodym",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						},
+						{
+							"file": 4,
+							"folder": 0
+						}
+					],
+					"name": "miner_h1",
+					"realname": "h1",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						}
+					],
+					"name": "miner_arm",
+					"realname": "arm",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "miner_armup",
+					"realname": "armup",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 5,
+							"folder": 0
+						}
+					],
+					"name": "miner_hand",
+					"realname": "hand",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 6,
+							"folder": 0
+						}
+					],
+					"name": "miner_handle",
+					"realname": "handle",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 49,
+					"id": 0,
+					"name": "miner/arm.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 38
+				},
+				{
+					"height": 38,
+					"id": 1,
+					"name": "miner/armup.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 38
+				},
+				{
+					"height": 68,
+					"id": 2,
+					"name": "miner/bodym.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 66
+				},
+				{
+					"height": 88,
+					"id": 3,
+					"name": "miner/h1.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 86
+				},
+				{
+					"height": 88,
+					"id": 4,
+					"name": "miner/h2.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 86
+				},
+				{
+					"height": 38,
+					"id": 5,
+					"name": "miner/hand.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 38
+				},
+				{
+					"height": 26,
+					"id": 6,
+					"name": "miner/handle.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 24
+				},
+				{
+					"height": 68,
+					"id": 7,
+					"name": "miner/roll.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 73
+				},
+				{
+					"height": 34,
+					"id": 8,
+					"name": "miner/shadow.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 106
+				}
+			],
+			"id": 0,
+			"name": "miner"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r10",
+	"scon_version": "1.0"
+}

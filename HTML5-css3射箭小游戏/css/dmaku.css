@@ -1,0 +1,25 @@
+﻿/****************************************************************
+ *																*		
+ * 						      代码库							*
+ *                        www.dmaku.com							*
+ *       		  努力创建完善、持续更新插件以及模板			*
+ * 																*
+****************************************************************/
+body{
+	margin:0;
+	background:#222;
+	
+	margin:20px;
+}
+svg{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+}
+span{
+	color:white;
+	font-family:sans-serif;
+	opacity:.3;
+}
